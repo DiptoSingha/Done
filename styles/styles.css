@@ -15,6 +15,50 @@ hr{
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+/* Header styles */
+.Main-head{
+    background-size: cover;
+    background-color: #562EFF;
+    max-width: 1440px;
+   
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.idea img{
+    width: 40.42px;
+    height: 51px;
+    padding-top: 26px;
+    padding-bottom: 17px;
+}
+.idea{
+    display: flex;
+    margin-left: 11%;
+    gap: 15px;
+    align-items: center;
+    
+}
+h4{
+   color: #FFFFFF;
+}
+.name{
+    font-size: 16px;
+}
+.right-idea{
+    display: flex;
+    margin-right: 11%;
+    gap: 36px;
+    align-items: center;
+}
+.right-idea img{
+    width: 51px;
+    height: 51px;
+}
+
 /* top players styles */
 
 .section-title{
@@ -137,6 +181,7 @@ hr{
 @media only screen and (max-width: 688px){
     .container{
         width: 100%;
+        padding: 0%;
     }
     .players, .blogs, .course{
         grid-template-columns: repeat(1, 1fr);
@@ -152,11 +197,16 @@ hr{
     .blog-info{
         margin-left: 0;
     }
+    .section-title, .top-blogs, .container, .rating-info, .course-banner img{
+        margin-left: 5px;
+    }
+    
 }
 @media only screen and (min-width: 689px) and (max-width: 992px){
     
     .container{
         width: 100%;
+        padding: 0%;
     }
     .section-title, .player{
         margin-left: 20px;
@@ -166,8 +216,5 @@ hr{
     }
     .blog{
         align-items: center;
-        }
-        .course{
-            justify-items: center;
         }
     }
