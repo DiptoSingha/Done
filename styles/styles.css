@@ -200,11 +200,16 @@ h4{
         margin-left: 5px;
     }
     .idea{
-        margin-left: 5%;
+        margin-left: 1%;
+        gap: 0;
     }
     .right-idea{
         margin-right: 5%;
+        margin-left: 10px;
         gap: 20px;
+    }
+    .idea-name{
+        padding: 3px;
     }
     
 }
