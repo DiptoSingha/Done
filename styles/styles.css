@@ -155,7 +155,6 @@ hr{
 }
 @media only screen and (min-width: 689px) and (max-width: 992px){
     
-    }
     .container{
         width: 100%;
     }
@@ -168,7 +167,7 @@ hr{
     .blog{
         align-items: center;
         }
-    .course{
-        justify-items: center;
+        .course{
+            justify-items: center;
+        }
     }
-}
