@@ -20,7 +20,6 @@ hr{
 .Main-head{
     background-size: cover;
     background-color: #562EFF;
-    max-width: 1440px;
    
 }
 .head{
@@ -37,7 +36,7 @@ hr{
 }
 .idea{
     display: flex;
-    margin-left: 11%;
+    margin-left: 29%;
     gap: 15px;
     align-items: center;
     
@@ -179,11 +178,11 @@ h4{
 /* media query */
 /* ..................... */
 @media only screen and (max-width: 688px){
-    .container{
+    .container, .Main-head{
         width: 100%;
         padding: 0%;
     }
-    .players, .blogs, .course{
+    .players, .blogs, .course, .head{
         grid-template-columns: repeat(1, 1fr);
     }
     .player{
@@ -200,21 +199,36 @@ h4{
     .section-title, .top-blogs, .container, .rating-info, .course-banner img{
         margin-left: 5px;
     }
+    .idea{
+        margin-left: 5%;
+    }
+    .right-idea{
+        margin-right: 5%;
+        gap: 20px;
+    }
     
 }
 @media only screen and (min-width: 689px) and (max-width: 992px){
     
-    .container{
+    .container, .Main-head{
         width: 100%;
         padding: 0%;
     }
     .section-title, .player{
         margin-left: 20px;
     }
-    .players, .blogs, .course{
+    .players, .blogs, .course, .head{
         grid-template-columns: repeat(2, 1fr);
     }
     .blog{
         align-items: center;
         }
+    .idea{
+        margin-left: 2%;
+        
+    }
+    .right-idea{
+        margin-right: 2%;
+        gap: 20px;
+    }
     }
